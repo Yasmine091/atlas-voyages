@@ -42,10 +42,16 @@ div.grid {
         height: auto;
         text-align: center;
         width: 340px;
-        padding: 25px 15px;
-        padding-top: 300px;
+        padding: 249px 15px 47px 15px;
+        border-radius: 5px;
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 75%);
         .img-title{
           font-size: 22px;
+          display: block;
+        }
+        .art-title{
+          font-size: 20px;
+          text-align: center;
           display: block;
         }
     }
@@ -56,7 +62,6 @@ div.grid {
         object-fit: fill;
         border-radius: 5px;
         float: inline-start;
-        box-shadow: inset 0px 0px 50px 25px #000 !important;
       }
       div.box-pt {
         img{
@@ -66,18 +71,31 @@ div.grid {
           border-radius: 5px;
         }
         p {
-          padding-top: 70px !important;
+          padding-top: 60px !important;
+          padding-bottom: 58px !important;
         }
     }
+    div.box-pt2 {
+      img{
+      width: 340px;
+        height: 170px;
+        object-fit: fill;
+        border-radius: 5px;
+      }
+      p {
+        padding-top: 60px !important;
+        padding-bottom: 55px !important;
+      }
+  }
       div.box-md {
         img{
         width: 340px;
-          height: 210px;
+          height: 220px;
           object-fit: fill;
           border-radius: 5px;
       }
       p {
-        padding-top: 100px !important;
+        padding-top: 118px !important;
       }
     }
         div.box-lg {
@@ -88,7 +106,7 @@ div.grid {
             border-radius: 5px;
         }
         p {
-          padding-top: 475px !important;
+          padding-top: 470px !important;
         }
       }
       .en-tetes {
