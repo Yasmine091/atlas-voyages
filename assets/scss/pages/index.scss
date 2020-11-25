@@ -9,6 +9,55 @@
   }
 }
 
+header {
+  background: url('../dist/images/atlas-voyages-home.jpg');
+  background-position: center;
+  background-size: 1980px;
+  filter: brightness(65%);
+  height: 580px;
+  position: relative;
+  z-index: 0;
+}
+
+nav {
+  z-index: 1;
+  display: grid;
+  position: fixed !important;
+  grid-template-columns: 1fr 6fr;
+  text-align: right;
+  align-items: center;
+  height: 100px;
+  padding: 0px 50px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: inherit;
+  .logo{
+    padding: 0px !important;
+  }
+  .navigation {
+    li {
+      list-style: none;
+      display: inline-block;
+      padding: 8px;
+      a {
+        color: inherit;
+        text-decoration: inherit;
+      }
+      
+    }
+  }
+}
+.normal {
+    background-color: transparent;
+    color: #fff;
+}
+.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+    color: #656565 !important;
+}
+
+
 .en-tetes {
   text-align: center;
   h1{
