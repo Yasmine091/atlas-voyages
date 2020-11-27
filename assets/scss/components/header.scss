@@ -1,0 +1,115 @@
+header {
+    background: url('../dist/images/atlas-voyages-home.jpg');
+    background-position: center;
+    background-size: 1980px;
+    //filter: brightness(65%);
+    height: 580px;
+    position: relative;
+    z-index: 0;
+  }
+  
+  .header-content {
+        filter: brightness(100%) !important;
+        width: 100%;
+        height: auto;
+        padding: 15%;
+        display: grid;
+        grid-template-columns: 1fr;
+        z-index: 9;
+        span.alert {
+          padding: 14px;
+          width: 100%;
+          display: block;
+          background-color: #fff1d1;
+          border-radius: 5px;
+          color: #9e781f;
+          text-align: center;
+          font-size: 15px;
+          line-height: 0,9;
+          span.close {
+            float: right;
+            font-weight: bolder;
+            margin-right: 10px;
+            font-size: 18px;
+            line-height: initial !important;
+            opacity: 75%;
+          }
+          a {
+            color: rgb(179, 0, 0);
+            font-weight: bolder;
+          }
+        }
+        button {
+          padding: 10px;
+          border: 0px;
+          border-radius: 2px;
+          background-color: rgba(0, 0, 0, 0.5);
+          color: #fff;
+          font-size: smaller;
+        }
+        button.red-btn {
+          background-color: rgb(179, 0, 0);
+        }
+        button.big-red-btn {
+          background-color: rgb(179, 0, 0);
+          height: 50px;
+          width: 24%;
+          font-weight: bolder;
+          margin-left: 6px;
+        }
+        div {
+          margin: 3px;
+        }
+        div.spacer {
+          height: 40px;
+        }
+        input, [type=text], [type=date], [type=search]{
+          padding: 18px 10px;
+          border: 0px;
+          border-radius: 2px;
+          background-color: #fff;
+          height: 50px;
+          width: 24%;
+          color: rgb(92, 92, 92);
+          font-size: smaller;
+          margin: 0;
+        }
+  }
+  
+  nav {
+    z-index: 1;
+    display: grid;
+    position: fixed !important;
+    grid-template-columns: 1fr 6fr;
+    text-align: right;
+    align-items: center;
+    height: 100px;
+    padding: 0px 50px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: inherit;
+    .logo{
+      padding: 0px !important;
+    }
+    .navigation {
+      li {
+        list-style: none;
+        display: inline-block;
+        padding: 8px;
+        a {
+          color: inherit;
+          text-decoration: inherit;
+        }
+        
+      }
+    }
+  }
+  .normal {
+      background-color: transparent;
+      color: #fff;
+  }
+  .scrolled {
+      background-color: #fff !important;
+      transition: background-color 200ms linear;
+      color: #656565 !important;
+  }
